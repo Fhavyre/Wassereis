@@ -1,0 +1,179 @@
+body {
+    font-family: 'Roboto';
+}
+
+body, html {
+    height: 100%;
+}
+
+.navbar-toggler.icon {
+    color: white;
+}
+
+nav {
+    display:inline-flex !important;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    padding: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+    padding: 30px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+h5 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+h6 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    color: grey !important;
+}
+
+.container {
+    padding: 30px;
+}
+
+.header .navbar-light .container {
+    padding: 0px;
+}
+
+.btn-primary {
+    background-color: #3c4eb6 !important;
+    text-transform: uppercase;
+}
+
+.btn-secondary {
+    background-color: #80b0ff !important;
+    text-transform: uppercase;
+}
+
+.search {
+    position: absolute;
+    right: 20px;
+}
+
+.buttons {
+    margin: auto;
+    font-size: 1em;
+    width: 50%;
+    padding: 20px;
+}
+
+.card-deck .card .card-body a {
+    font-size: 20px;
+}
+
+.card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(res/david-calavera-UKdCsFKBbkQ-unsplash.jpg);
+    background-position-x : center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}   
+
+p {
+    color: #9E9E9E;
+    text-align: center;
+}
+#Eissorten {
+    width: 100%;
+}
+
+#bestellen {
+    display: flex;
+}
+
+#zahlen {
+    background-color: darkgrey !important; 
+    padding: 10px
+}
+
+#zahlen .card-title {
+    color: white; 
+    padding-top: 10px;
+}
+
+#service h3 {
+    text-transform: uppercase;
+    color : #9E9E9E;
+    padding: 10px;
+    font-size: 16px !important;
+}
+
+.body-click {
+    transform: rotate(0) !important; /* weird hack to make only body of card clickable */
+}
+
+.color-grey {
+    color:grey;
+}
+
+.color-white {
+    color: white;
+}
+
+.large-font {
+    font-size: x-large !important;
+}
+
+#header-content-container {
+    padding-top: 80px;
+}
+
+#kontaktdaten i{
+    font-size: xx-large;
+}
+
+.footer {
+    background-color: #3c4eb6;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.footer h3{
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.footer .lighter p {
+    color: white;
+    text-align: center;
+}
+
+.footer .lighter{
+    background-color: rgba(255,255,255, 0.1) !important;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.footer p i{
+    color: grey;
+}
